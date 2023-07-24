@@ -1,0 +1,40 @@
+:root {
+    --dark-navy: #222244;
+    /* Dark purple */
+    --navy: #2a2a4b;
+    /* Slightly lighter purple */
+    --light-navy: #3c3c5f;
+    /* Light purple */
+    --lightest-navy: #4f4f73;
+    /* Slightly lighter light purple */
+    --navy-shadow: rgba(34, 34, 68, 0.7);
+    /* Dark purple shadow */
+    --slate: #8888aa;
+    /* Slightly warmer purple */
+    --light-slate: #afafcc;
+    /* Lighter warm purple */
+    --lightest-slate: #dcdcff;
+    /* Very light warm purple */
+    --white: #ffffff;
+    /* White */
+    --green-bright: #ff99cc;
+    ;
+    /* Bright purple (Updated to a bright purple) */
+    --green-tint: gba(100, 255, 218, 0.1);
+    /* Tint of the bright purple (Updated tint) */
+}
+
+
+/* :root {
+    --dark-navy: #020c1b;
+    --navy: #0a192f;
+    --light-navy: #112240;
+    --lightest-navy: #233554;
+    --navy-shadow: rgba(2, 12, 27, 0.7);
+    --slate: #8892b0;
+    --light-slate: #a8b2d1;
+    --lightest-slate: #ccd6f6;
+    --white: #e6f1ff;
+    --green-bright: #ff00ff;
+    --green-tint: rgba(100, 255, 218, 0.1);
+} */
