@@ -27,7 +27,6 @@ const techStack = [
 function About() {
   return (
     <div id="about">
-      {/* <FadeInSection> */}
       <div className="section-header">
         <span className="section-title">/ about me</span>
       </div>
@@ -46,7 +45,7 @@ function About() {
           {/* <img src={"/assets/"} /> */}
         </div>
       </div>
-      {/* </FadeInSection> */}
+      
     </div>
   );
 }

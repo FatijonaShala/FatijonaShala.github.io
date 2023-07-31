@@ -8,30 +8,23 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 
 
 function sidebarNav() {
-  // const { expanded } = this.state;
 
   const links = [
     <a href="#intro">/home</a>,
     <a href="#about">/about</a>,
     <a href="#experience">/experience</a>,
-    <a href="#projects">/software-creations</a>
+    <a href="#projects">/projects</a>
   ];
   return (
     <div className='sidebar-nav'>
 
           <Sidenav
-            // expanded={expanded}
-            // defaultOpenKeys={["3", "4"]}
-            // activeKey={this.state.activeKey}
-            // onSelect={this.handleSelect}
             appearance={"subtle"}
           >
             <Sidenav.Body>
               <div className="sidebar-links">
                 {links.map((link, i) => (
-                  // <FadeInSection delay={`${i + 1}00ms`}>
                     <div key={i}>{link}</div>
-                  // </FadeInSection>
                 ))}
               </div>
             </Sidenav.Body>
