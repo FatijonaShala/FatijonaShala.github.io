@@ -36,6 +36,23 @@ const spotlightProjects = {
 };
 const projects = {
 
+  "Eurollogaria": {
+    desc:
+    "An accounting firm website created for Eurollogaria, using react.",
+    techStack: "REACT.JS, NODE.JS",
+    link: "https://github.com/FatijonaShala/eurollogaria",
+    open: "https://www.eurollogaria.com/"
+  },
+
+
+  "My Cozy Reading Nook": {
+    desc:
+      "A Virtual Sanctuary for Book Enthusiasts.",
+    techStack: "REACT.JS, ",
+    link: "https://github.com/FatijonaShala/mycozyreadingnook",
+    open: "https://www.mycozyreadingnook.com/"
+  },
+
   "Dolist": {
     desc:
       "A web application for managing tasks.Features including: register/login, create to do lists, pomodoro timer for tasks, dark mode, etc.",
